@@ -1,0 +1,66 @@
+# Java / Maven
+back-end/target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Node / React
+front-end/node_modules/
+front-end/build/
+front-end/.env.local
+front-end/.env.development.local
+front-end/.env.test.local
+front-end/.env.production.local
+front-end/.eslintcache
+
+# Package manager lockfiles (optional - comment out if you want to track these)
+# package-lock.json
+# yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Testing
+/coverage
+*.coverage
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Maven specific
+**/target/
+*.releaseBackup
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# React / Build artifacts
+build/
+dist/
+*.tsbuildinfo

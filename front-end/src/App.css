@@ -20,21 +20,24 @@
 
 #instructions {
   height: 5vh;
-  background-color: white;
-  padding: 0px;
-  margin: 0px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px 0;
   text-align: center;
-  border: 1px solid black;
+  border: 2px solid #2196F3;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 #bottombar button {
   width: 50%;
   /* height: 100%; */
   margin: 0;
-  padding: 0;
+  padding: 10px;
   position: relative;
   float: left;
-  font-size: 2vw
+  font-size: 2vw;
+  cursor: pointer;
 }
 
 html,
